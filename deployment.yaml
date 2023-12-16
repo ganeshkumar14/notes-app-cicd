@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: notes-app-deployment
-        image: pavansa/notes-app
+        image: ganeshkumar20/k8-nodejs-app
         resources:
           requests:
             cpu: "100m"
